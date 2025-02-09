@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebAssembly: Faktoriyal & Fibonacci</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WebAssembly: Faktoriyal & Fibonacci</h1>
+        
+        <label for="number">Sonni kiriting:</label>
+        <input type="number" id="number" min="0" placeholder="Masalan, 5">
+        
+        <div class="buttons">
+            <button onclick="calculateFactorial()">Faktoriyal</button>
+            <button onclick="calculateFibonacci()">Fibonacci</button>
+        </div>
+        
+        <p id="result">Natija: -</p>
+    </div>
+
+    <script src="factorial_fib.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
